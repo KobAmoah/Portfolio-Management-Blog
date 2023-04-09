@@ -17,3 +17,6 @@ Should you have any questions regarding my blog posts, you could reach me direct
 
 # Credits
 I am incredibly grateful to the many people who have made and continue to make this project possible, including Peter Carl, Kyle Balkissoon, Bill Davis, Arthur Olunwa, Dale Rosenthal, Dr. Eugene Yeboah, Frank Sensenbrenner, Chris Vincent and many others whose names I’ll regret not including in this sentence. I am also grateful to the numerous professional organizations that continue to make my personal development possible including CFA Society Chicago, Chicago R User Group, PyData Chicago, Chicago Data Engineering and the R/Finance groups.
+
+# License
+MIT © KobenaAmoah
