@@ -1,2 +1,2 @@
 # Portfolio-Management-Blog
-This is the repository for my portfolio management blog
+This is the repository for the guide to portfolio management blog [(https://structuringportfolios.blogspot.com)]
