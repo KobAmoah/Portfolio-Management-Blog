@@ -19,7 +19,7 @@ Should you have any questions regarding my blog posts, you could reach me direct
 I am incredibly grateful to the many people who have made and continue to make this project possible, including Peter Carl, Kyle Balkissoon, Bill Davis, Arthur Olunwa, Dale Rosenthal, Dr. Eugene Yeboah, Frank Sensenbrenner, Chris Vincent and many others whose names I’ll regret not including in this sentence. I am also grateful to the numerous professional organizations that continue to make my personal development possible including CFA Society Chicago, Chicago R User Group, PyData Chicago, Chicago Data Engineering and the R/Finance groups.
 
 # Using the Code
-The code is to maintained here is designed to show the workflow of a data scientist/asset management quant. You may snippets of it in your programs and documentation. You do not need to contact me unless you're reproducing a significant portion of the code. Incorporating a significant amount of the code into your product's documentation does require documentation.
+The code maintained here is designed to show the workflow of a data scientist/asset management quant. You may use snippets of it in your programs and documentation. You do not need to contact me unless you're reproducing a significant portion of the code. Incorporating a significant amount of the code into your product's documentation does require documentation.
 
 # License
 MIT © KobenaAmoah
