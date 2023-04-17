@@ -1,5 +1,6 @@
 # Portfolio-Management-Blog
 This is the repository for the [guide to portfolio management blog](https://structuringportfolios.blogspot.com).
+The code maintained here is under development! 
 
 ## Latest Addition
 Active Management  : Jupyter Notebook - Getting Started
