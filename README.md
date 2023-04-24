@@ -1,3 +1,10 @@
+![GitHub all releases](https://img.shields.io/github/downloads/KobAmoah/Portfolio-Management-Blog/total)
+![GitHub language count](https://img.shields.io/github/languages/count/KobAmoah/Portfolio-Management-Blog) 
+![GitHub top language](https://img.shields.io/github/languages/top/KobAmoah/Portfolio-Management-Blog?color=yellow) 
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/KobAmoah/Portfolio-Management-Blog)
+![GitHub forks](https://img.shields.io/github/forks/KobAmoah/Portfolio-Management-Blog?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/KobAmoah/Portfolio-Management-Blog?style=social)
+
 # Portfolio-Management-Blog
 This is the repository for the [guide to portfolio management blog](https://structuringportfolios.blogspot.com).
 The code maintained here is under development! 
@@ -26,5 +33,5 @@ I am incredibly grateful to the many people who have made and continue to make t
 The code maintained here is designed to show the workflow of a data scientist/asset management quant. You may use snippets of it in your programs and documentation. You do not need to contact me unless you're reproducing a significant portion of the code. Incorporating a significant amount of the code into your product's documentation does require documentation.
 
 # License
-MIT © KobenaAmoah
+Distributed under the MIT License. See LICENSE.txt for more information.
 
