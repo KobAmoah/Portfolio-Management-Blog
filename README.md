@@ -9,6 +9,16 @@
 This is the repository for the [guide to portfolio management blog](https://structuringportfolios.blogspot.com).
 The code maintained here is under development! 
 
+## Table of Conents
+  * [Latest Addition](#latest-addition)
+- [Motivation](#motivation)
+- [Contributing](#contributing)
+  * [Sharing](#sharing)
+  * [Issues](#issues)
+- [Credits](#credits)
+- [Using the Code](#using-the-code)
+- [License](#license)
+
 ## Latest Addition
 Active Management  : Jupyter Notebook - [Getting Started](https://github.com/KobAmoah/Portfolio-Management-Blog/blob/main/Active-Management/Jupyter-Notebooks/Getting%20Started.ipynb)
 
