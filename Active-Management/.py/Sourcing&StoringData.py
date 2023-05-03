@@ -70,7 +70,7 @@ def get_jsonparsed_data(url: str, field: Optional[str] = None):
 ###########################################################################
 
 ##### Tickers List Download
-api_key = "12135f0ce50bcdc95d285a457e688b22"
+api_key = # Enter your api key
 url = f"https://financialmodelingprep.com/api/v3/available-traded/list?apikey={api_key}"
 
 ticker_list = get_jsonparsed_data(url)
@@ -165,10 +165,10 @@ fin_growth_df.to_parquet(f'stock_fin_growth.parquet.gzip')
 
 ##### Database storage - SQL - Notice I use a remote MySQL database
 
-user = 'kobbyamoah'
-password = 'kkd$12345'
-hostname= 'localhost:3306'
-projectname = 'ProjectActiveData'
+user = # Enter your username
+password = # Enter your password
+hostname= # Enter your hostname
+projectname = # Enter your project name
 address = f'mysql+pymysql://{user}:{password}@{hostname}/{projectname}'
 
 metadata = MetaData()
