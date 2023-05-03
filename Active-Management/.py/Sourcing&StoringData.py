@@ -1,4 +1,6 @@
 # File: Sourcing&StoringData.py
+# Description: This file sources data from the Fin Model Prep API and stores the data in a remote MySQL Database
+# Fin Model Prep:   https://github.com/antoinevulcain/Financial-Modeling-Prep-API
 #
 # Author: Kobby Amoah <amoahkobena@gmail.com>
 # Copyright (c) 2023 
