@@ -22,9 +22,9 @@
 # Library Imports
 
 import sys
-if not sys.warnoptions:
+if not sys.warnoptions:   # Note this hides all Python level warnings from their users by default
     import warnings
-    warnings.filterwarnings('ignore')
+    warnings.simplefilter("ignore")
 
 
 from urllib.request import urlopen
