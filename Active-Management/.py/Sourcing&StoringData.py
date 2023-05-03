@@ -175,11 +175,11 @@ address = f'mysql+pymysql://{user}:{password}@{hostname}/{projectname}'
 
 metadata = MetaData()
 
-stock = Table('stock_names',metadata,
+stock_names = Table('stock_names',metadata,
           Column('stock_symbol',primary_key= True,unique=True),
           Column('stock_name',String(255)))
 
-stock_price = Table('price_data',metadata,
+price_data = Table('price_data',metadata,
          Column('stock_symbol',ForeignKey('stock_names.stock_symbol'),primary_key=True),
          Column('date',DateTime(),index = True),
          Column('open',Numeric(12,2)),
@@ -196,7 +196,7 @@ stock_price = Table('price_data',metadata,
          Column('created_on',DateTime(),default = datetime.now),  
          Column('updated_on',DateTime(),default = datetime.now, onupdate=datetime.now) )
 
-finratio = Table('finratio',metadata,
+fin_ratio = Table('fin_ratio',metadata,
          Column('stock_symbol',ForeignKey('stock_names.stock_symbol'),primary_key=True),
          Column('date', DateTime(),index = True),
          Column('period', String(50)),
@@ -260,7 +260,7 @@ finratio = Table('finratio',metadata,
          Column('created_on',DateTime(),default = datetime.now),  
          Column('updated_on',DateTime(),default = datetime.now, onupdate=datetime.now) ) 
 
-fingrowth = Table('fin_growth',metadata,
+fin_growth = Table('fin_growth',metadata,
          Column('stock_symbol',ForeignKey('stock_names.stock_symbol'),primary_key=True),
          Column('date',DateTime(),index = True),
          Column('period', String(50)),
@@ -305,11 +305,11 @@ engine = create_engine(address, pool_recycle = 3600)
 metadata.create_all(engine) 
 
 names_towrite = symbols.to_dict(orient='records')
-price_towrite = price_df.to_dict(orient='records')
-ratios_towrite = fin_ratios_df.to_dict(orient='records')
-growth_towrite  = fin_growth_df.to_dict(orient='records')
+price_towrite = price_data.to_dict(orient='records')
+ratios_towrite = fin_ratios.to_dict(orient='records')
+growth_towrite  = fin_growth.to_dict(orient='records')
 
-names = connection.execute(stock.insert(),names_towrite)
-prices = connection.execute(stock_price.insert(), price_towrite)
-ratios = connection.execute(finratio.insert(),ratios_towrite)
-growth = connection.execute(fingrowth.insert(),growth_towrite)
+names = connection.execute(stock_names.insert(),names_towrite)
+prices = connection.execute(price_data.insert(), price_towrite)
+ratios = connection.execute(fin_ratio.insert(),ratios_towrite)
+growth = connection.execute(fin_growth.insert(),growth_towrite)
