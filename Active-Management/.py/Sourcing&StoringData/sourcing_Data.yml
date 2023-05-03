@@ -22,14 +22,3 @@ dependencies:
   # Database storage
   - pymysql
   - sqlachemy
-
-  # Jupyter Environment
-  - jupyter
-  - jupyter_client
-  - jupyter_console
-  - jupyter_core
-  - jupyterlab
-  - notebook
-  - ipython
-  - jupyter_contrib_nbextensions
-  
