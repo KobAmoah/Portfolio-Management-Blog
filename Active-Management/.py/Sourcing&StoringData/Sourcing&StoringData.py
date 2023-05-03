@@ -114,7 +114,7 @@ for ticker in tqdm(symbol_list):
     try:
         url =  f"https://financialmodelingprep.com/api/v3/historical-price-full/{ticker}?apikey={api_key}" 
         dict_data = get_jsonparsed_data(url,'historical')
-        df = pd.DataFrame(get_jsonparsed_data(url)).iloc[:, 0]
+        df = get_jsonparsed_data(url).iloc[:, 0]
         df = pd.concat([df,dict_data],axis='columns')   
         df = (df
             .set_index('date') 
