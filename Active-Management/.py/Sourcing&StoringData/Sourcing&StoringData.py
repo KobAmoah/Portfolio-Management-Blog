@@ -84,7 +84,6 @@ symbols = ticker_list[['symbol','name']]
 symbol_list = symbols.symbol
 
 ##### Fin Ratios Data Download
-df = pd.DataFrame()
 df_list = []
 quarters = 40
 print('\nFinancial Ratio Data Download\n')
@@ -108,7 +107,6 @@ if not path.exists():
 fin_ratio_df.to_parquet(f'stock_fin_ratios.parquet.gzip')
 
 ##### Price Data Download - Resampled to Monthly
-df = pd.DataFrame()
 df_list = []
 print('\nPrice Data Download\n')
 for ticker in tqdm(symbol_list):
@@ -139,7 +137,6 @@ price_df.to_parquet(f'price_df.parquet.gzip')
 
 
 ##### Fin Growth Data Download
-df = pd.DataFrame()
 df_list = []
 quarters = 40
 print('\nFinancial Growth Data Download\n')
