@@ -22,7 +22,6 @@
 #!/usr/bin/env python3
 
 # Library Imports
-
 import sys
 if not sys.warnoptions:   # Note this hides all Python level warnings from their users by default
     import warnings
